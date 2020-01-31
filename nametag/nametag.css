@@ -1,5 +1,42 @@
 
 body {
-    background-color: blue;
+    background-color: darkgrey;
+    
+    
+}
+
+.tag {
+    color: white;
+    background-color:red;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 25%;
+    height: 200px;
+    font-size: 20px;
+    font-family: Helvetica;
+    line-height: 60%;
+    padding-top: 5px;
+}
+
+
+.name {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
+    padding: 30px;
+    
+}
+
+.h1 {
+font-size: 30px;
 
 }
+
+/* border: .02px;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-left: solid;
+    border-right: solid; */
