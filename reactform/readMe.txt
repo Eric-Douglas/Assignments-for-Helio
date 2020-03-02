@@ -1,0 +1,3 @@
+-What techniques can you use to help you translate raw HTML into React? We write things in JSX. There is no translation.
+-In what way can you think about the HTML building blocks that will help you build React forms? Because they share some tags, structuring can be similar.
+-What resources are shared between HTML and React? A few examples are header and div tags.
