@@ -1,0 +1,3 @@
+-What is State Management? Managing the state.
+-In what way can you think React leverages good State Management principles? You have to know what good state management principles. You can only change one state at a time, but React doesn't enforce that.
+-What is the difference React and JavaScript? What is the same? React can use shortcuts thanks to Babble whereas normal JS cannot.
