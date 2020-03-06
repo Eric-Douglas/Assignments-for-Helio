@@ -18,8 +18,7 @@ export default class Body extends Component {
     console.log("generated")
     this.setState({number: actualNum})
   } // Here's a function. I stole it from the web and have made some modification. It seemed malleable enough for my taste.
-  // I need to figure out how to put the actualNum constant I made and put it into the generator.
-  //presently, the generator gives me random numbers that are mostly decimals. It's a start I suppose
+  // Math.floor rounds it so no decimals occur.
 
   // LEAVE ALL THIS ALONE BELOW
   render(){
