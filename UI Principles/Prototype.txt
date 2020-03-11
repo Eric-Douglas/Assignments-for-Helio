@@ -1,0 +1,84 @@
+PURPOSE FOR APP: an idea right now, I want to build an application that holds DnD character information. Each user (email) can store their characters (multiple) into the database. These characters will be assigned to each user via id so as to differentiate whose character is whose. Character information may comprise: char name, gender, age, race, class, AC, total HP, inventory (weapons, armour, etc), campaign, and alignment. Each user should have the option to update their characters whenever needed as during DnD updates to the char sheet are a norm, but only when logged in and only to their own characters. The DM should have access to ALL data in the system, including users and their characters. Here are some data groups in the app:
+
+CAMPAIGNS {
+users,
+permissions
+}
+
+USERS {
+login info
+}
+
+CHARACTER {
+char attributes,
+items,
+spells,
+user id
+}
+
+ITEMS {
+attributes,
+description,
+stats
+} 
+
+SPELLS {
+attributes,
+description,
+stats
+}
+
+1. Nexus.js (MAIN PAGE)
+Purpose:
+-functions as the main page, aka "the nexus" or main hub to my app
+-perhaps a description of the app may be included (sorta like when someone goes to a website and its purpose is listed n the front page)
+Features:
+-links to "Create User" and "Login"
+
+2. CreateUser.js (CREATE USER PAGE)
+Purpose:
+-area where a player creates their user account
+Features:
+-boxes to fill credentials
+-once a user is created, a message should appear
+-after a user is created, it should redirect the person to the character hub
+
+3. Login.js (LOGIN PAGE)
+Purpose: 
+-where an existing player enters in credentials to proceed to the character hub
+Features:
+-boxes to enter in credentials
+-once entered successfully, the page should redirect to the character hub
+-there should also be a link back to the nexus in case someone clicks login by accident
+
+4. CharHub.js (CHARACTER HUB)
+Purpose: 
+-once a player is logged in, they will have access to see their characters, items, and spells
+Features: 
+-access to their character info (which contains stats and what spells or items they possess)
+-a link to the spell and item lists 
+-a link to campaign info
+
+5. Items.js (ITEM LIST)
+Purpose:
+-a list displaying items (this includes weapons, armour, other equippables, etc) for players to see; essentially a reference page
+Features: 
+-items and attributes will be displayed
+-redirect link back to character hub
+
+6. Spells.js (SPELL LIST)
+Purpose:
+-a list displaying spells for players to see; essentially a reference page
+Features: 
+-spells with their respective attributes and descriptions will be displayed
+-redirect link back to character hub
+
+7. CampaignInfo.js (CAMPAIGN DETAILS)
+Purpose:
+-a page where one can select a campaign and then see what players are in selected campaign
+-ability to see a stub/summary written by DM of present point in campaign
+Features: 
+-ability to select campaign
+-able to see other characters in campaign
+-ability to see summary of currents events for campaign
+-redirect link back to character hub
